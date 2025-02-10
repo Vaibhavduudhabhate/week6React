@@ -12,7 +12,7 @@ const Useeffect = () => {
     },[])
   return (
     <div>
-      {todos.map(todo => <Product key={todo._id} name={todo.name} description={todo.description} />)}
+      {todos.length && todos.map(todo => <Product key={todo._id} name={todo.name} description={todo.description} />)}
     </div>
   )
 }

@@ -7,7 +7,7 @@ import Cardwrapper from './Cardwrapper.jsx'
 import Useeffect from './Useeffect.jsx'
 
 createRoot(document.getElementById('root')).render(
-  <StrictMode>
+  <>
     <App />
     <hr />
     <Todo />
@@ -15,5 +15,8 @@ createRoot(document.getElementById('root')).render(
     <Cardwrapper />
     <hr />
     <Useeffect />
-  </StrictMode>,
+    <hr />
+  </>
+  // <StrictMode>
+  // </StrictMode>,
 )
