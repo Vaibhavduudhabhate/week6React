@@ -5,6 +5,7 @@ import App from './App.jsx'
 import Todo from './Todo.jsx'
 import Cardwrapper from './Cardwrapper.jsx'
 import Useeffect from './Useeffect.jsx'
+import Usememo from './Usememo.jsx'
 
 createRoot(document.getElementById('root')).render(
   <>
@@ -16,6 +17,7 @@ createRoot(document.getElementById('root')).render(
     <hr />
     <Useeffect />
     <hr />
+    <Usememo />
   </>
   // <StrictMode>
   // </StrictMode>,
