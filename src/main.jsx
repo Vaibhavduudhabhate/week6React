@@ -6,6 +6,8 @@ import Todo from './Todo.jsx'
 import Cardwrapper from './Cardwrapper.jsx'
 import Useeffect from './Useeffect.jsx'
 import Usememo from './Usememo.jsx'
+import Memo from './Memo.jsx'
+import Usecallback from './Usecallback.jsx'
 
 createRoot(document.getElementById('root')).render(
   <>
@@ -18,6 +20,10 @@ createRoot(document.getElementById('root')).render(
     <Useeffect />
     <hr />
     <Usememo />
+    <hr />
+    <Memo />
+    <hr />
+    <Usecallback />
   </>
   // <StrictMode>
   // </StrictMode>,
