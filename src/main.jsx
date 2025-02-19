@@ -8,6 +8,8 @@ import Useeffect from './Useeffect.jsx'
 import Usememo from './Usememo.jsx'
 import Memo from './Memo.jsx'
 import Usecallback from './Usecallback.jsx'
+import Usememo2 from './Usememo2.jsx'
+import UseRef from './UseRef.jsx'
 
 createRoot(document.getElementById('root')).render(
   <>
@@ -24,6 +26,10 @@ createRoot(document.getElementById('root')).render(
     <Memo />
     <hr />
     <Usecallback />
+    <hr />
+    <Usememo2 />
+    <hr />
+    <UseRef />
   </>
   // <StrictMode>
   // </StrictMode>,
